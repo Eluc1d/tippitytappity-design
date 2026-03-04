@@ -1,3 +1,5 @@
+mermaid 
+```
 classDiagram
   User "1" --> "0..*" TypingTest : attempts
   Phrase "1" --> "0..*" TypingTest : used_in
@@ -34,3 +36,4 @@ classDiagram
     + calculate_wpm(char_count: int, duration_seconds: float) float
     + calculate_accuracy(expected: string, actual: string) float
   }
+```
